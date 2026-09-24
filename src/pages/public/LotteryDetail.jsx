@@ -1,7 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowLeft, Calendar, Check, ChevronRight, Clock, IndianRupee, Ticket, Users } from "lucide-react";
-import { Badge, Button, ButtonLink, Card } from "../../components/common/ui";
+import { Badge, Button, ButtonLink, Card, Section } from "../../components/common/ui";
 import { Reveal, RevealGroup, RevealItem } from "../../components/common/Reveal";
 import { useToast } from "../../context/ToastContext";
 import { getLotteryById, lotteries } from "../../data/lotteries";
